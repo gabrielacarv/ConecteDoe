@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConecteDoe.Dominio
 {
-    internal class Endereco
+    public class Endereco
     {
         public string Logradouro { get; set; }
         public string CEP { get; set; }

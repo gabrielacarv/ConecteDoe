@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConecteDoe.Dominio
 {
-    internal class Comprovante
+    public class Comprovante
     {
         public DateTime Data { get; set; }
         public double Valor { get; set; }

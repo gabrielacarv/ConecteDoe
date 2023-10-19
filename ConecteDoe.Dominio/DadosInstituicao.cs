@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConecteDoe.Dominio
 {
-    internal class DadosInstituicao
+    public class DadosInstituicao
     {
+        public int InstituicaoID { get; set; }
         public string Coordenador { get; set; }
         public DateTime DataCriacao { get; set; }
         public int QuantidadeCarentes { get; set; }

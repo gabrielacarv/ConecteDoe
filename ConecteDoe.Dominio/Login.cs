@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConecteDoe.Dominio
 {
-    internal class Login
+    public class Login
     {
         public string Email { get; set; }
         public string Senha{ get; set; }

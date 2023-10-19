@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConecteDoe.Dominio
 {
-    internal class Notificacao
+    public class Notificacao
     {
         public Usuario Destinatario { get; set; }
         public Enum Tipo { get; set; }

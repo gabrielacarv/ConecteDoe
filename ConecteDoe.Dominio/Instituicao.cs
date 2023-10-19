@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConecteDoe.Dominio
 {
-    internal class Instituicao
+    public class Instituicao
     {
         public int Id { get; set; }
         public string Nome { get; set; }
